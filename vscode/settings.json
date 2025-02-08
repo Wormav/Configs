@@ -1,0 +1,144 @@
+{
+	// _    _                                                     __ _
+	// | |  | |                                                   / _(_)
+	// | |  | | ___  _ __ _ __ ___   __ ___   __   ___ ___  _ __ | |_ _  __ _
+	// | |/\| |/ _ \| '__| '_ ` _ \ / _` \ \ / /  / __/ _ \| '_ \|  _| |/ _` |
+	// \  /\  / (_) | |  | | | | | | (_| |\ V /  | (_| (_) | | | | | | | (_| |
+	//  \/  \/ \___/|_|  |_| |_| |_|\__,_| \_/    \___\___/|_| |_|_| |_|\__, |
+	// 																     __/ |
+	// 																    |___/
+	// -- Apparence --
+	//
+	"workbench.colorTheme": "Dracula Theme", // Thème de couleurs de l'interface
+	"workbench.iconTheme": "helium-icon-theme", // Thème des icônes
+	"editor.fontFamily": "'JetBrains Mono', Fira Code, Menlo, Monaco, 'Courier New', monospace", // Police de l'éditeur
+	"editor.fontLigatures": true, // Active les ligatures de police
+	"workbench.activityBar.location": "bottom", // Position de la barre d'activité
+	"editor.minimap.enabled": false, // Désactive la minimap
+	"editor.lineNumbers": "on", // Affiche les numéros de ligne
+	"editor.renderWhitespace": "trailing", // Affiche les espaces blancs inutiles
+	"window.commandCenter": false, // Desactive la barre de titre
+	//
+	//
+	//
+	// -- Explorateur de fichiers --
+	//
+	"explorer.confirmPasteNative": false, // Désactive la confirmation pour coller
+	"explorer.confirmDelete": false, // Désactive la confirmation pour supprimer
+	"explorer.confirmDragAndDrop": false, // Désactive la confirmation pour le glisser-déposer
+	"explorer.autoReveal": false, // Désactive le défilement automatique vers le fichier sélectionné
+	//
+	//
+	//
+	// -- Éditeur --
+	//
+	"editor.tabSize": 4, // Taille de tabulation
+	"editor.insertSpaces": false, // Utilise des tabulations au lieu des espaces
+	"editor.detectIndentation": false, // Désactive la détection automatique de l'indentation
+	"editor.wordWrap": "wordWrapColumn", // Retour à la ligne à une colonne spécifique
+	"editor.wordWrapColumn": 80, // Colonne pour le retour à la ligne
+	"editor.accessibilitySupport": "off", // Désactive l'accessibilité
+	"editor.formatOnSave": true, // Formate le code à la sauvegarde
+	"editor.rulers": [
+		80
+	], // Affiche une limite visuelle à 80 colonnes
+	"editor.autoClosingBrackets": "always", // Ferme automatiquement les accolades
+	"editor.emptySelectionClipboard": false, // Ne copie pas de ligne vide si rien n'est sélectionné
+	"editor.renderLineHighlight": "none", // Désactive la mise en surbrillance de la ligne active
+	"editor.stickyScroll.enabled": false, // Désactive le défilement collant
+	"editor.overviewRulerBorder": false, // Supprime la bordure de la règle de défilement
+	"editor.copyWithSyntaxHighlighting": false, // Désactive la copie avec coloration syntaxique
+	"editor.hover.delay": 300, // Délai avant affichage des infobulles
+	"editor.hover.enabled": true, // Active les infobulles
+	"editor.selectionHighlight": false, // Désactive la mise en surbrillance des sélections
+	//
+	//
+	//
+	// -- Navigation et fichiers --
+	//
+	"workbench.startupEditor": "none", // Pas d'éditeur au démarrage
+	"workbench.editor.enablePreview": false, // Désactive les aperçus des fichiers
+	"workbench.editor.enablePreviewFromQuickOpen": false, // Désactive l'aperçu lors de l'ouverture rapide
+	"files.trimTrailingWhitespace": true, // Supprime les espaces en fin de ligne
+	"files.insertFinalNewline": true, // Ajoute une nouvelle ligne à la fin des fichiers
+	//
+	//
+	//
+	// -- Langage C --
+	//
+	"[c]": {
+		"editor.formatOnSave": false,
+		"editor.tabSize": 4,
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": false,
+		"editor.renderWhitespace": "trailing",
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"editor.rulers": [
+			80
+		],
+		"editor.autoClosingBrackets": "always",
+		"editor.formatOnType": true
+	},
+	"[h]": {
+		"editor.formatOnSave": false,
+		"editor.tabSize": 4,
+		"editor.insertSpaces": false,
+		"editor.detectIndentation": false,
+		"editor.renderWhitespace": "trailing",
+		"files.trimTrailingWhitespace": true,
+		"files.insertFinalNewline": true,
+		"editor.rulers": [
+			80
+		],
+		"editor.autoClosingBrackets": "always",
+		"editor.formatOnType": true
+	},
+	//
+	//
+	//
+	// -- Extensions spécifiques --
+	//
+	"42header.email": "jlorette@42angouleme.fr", // Email pour l'en-tête 42
+	"42header.username": "jlorette", // Nom d'utilisateur pour l'en-tête 42
+	//
+	//
+	//
+	// -- Terminal --
+	//
+	"terminal.integrated.profiles.linux": {
+		"bash": {
+			"path": "bash",
+			"icon": "terminal-bash"
+		},
+		"fish": {
+			"path": "fish"
+		},
+		"tmux": {
+			"path": "tmux",
+			"icon": "terminal-tmux"
+		},
+		"pwsh": {
+			"path": "pwsh",
+			"icon": "terminal-powershell"
+		},
+		"sh": {
+			"path": "/bin/sh"
+		},
+		"zsh": {
+			"path": "/bin/zsh"
+		}
+	},
+	"terminal.integrated.defaultProfile.linux": "zsh (2)",
+	//
+	//
+	//
+	// -- github copilot
+	"github.copilot.enable": {
+		"*": false,
+		"plaintext": false,
+		"markdown": false,
+		"scminput": false
+	},
+	"github.copilot.chat.localeOverride": "fr",
+}
