@@ -19,12 +19,7 @@
 }
 
 /* Toolbars when tabs are enabled. */
-.monaco-workbench
-	.part.editor
-	> .content
-	.editor-group-container
-	> .title
-	.editor-actions {
+.monaco-workbench .part.editor>.content .editor-group-container>.title .editor-actions {
 	display: none !important;
 }
 
@@ -62,7 +57,7 @@
 }
 
 /* Sidebar top shadow */
-.monaco-scrollable-element > .shadow.top {
+.monaco-scrollable-element>.shadow.top {
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.75) !important;
 	top: -3px !important;
 }
@@ -74,6 +69,7 @@
 	align-items: center !important;
 	justify-items: center !important;
 }
+
 .composite.title h2 {
 	font-weight: bold !important;
 	font-size: 12px !important;
@@ -102,25 +98,9 @@
 	display: block !important;
 }
 
-/* Tooltip box style */
-.monaco-editor-hover,
-.monaco-hover {
-	box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.45) !important;
-	padding: 10px !important;
-	background-image: linear-gradient(#3c3c50 0%, #2a2b38 100%) !important;
-	backdrop-filter: blur(3px) !important;
-	border-radius: 20px !important;
-	border: none !important;
-}
 
 /* Project title's style at the top. */
-.monaco-workbench
-	.part.titlebar
-	> .titlebar-container
-	> .titlebar-center
-	> .window-title
-	> .command-center
-	.action-item.command-center-center {
+.monaco-workbench .part.titlebar>.titlebar-container>.titlebar-center>.window-title>.command-center .action-item.command-center-center {
 	border: none !important;
 	background: transparent !important;
 }
@@ -153,7 +133,7 @@
 	display: none !important;
 }
 
-.titlebar-right > * {
+.titlebar-right>* {
 	display: none !important;
 }
 

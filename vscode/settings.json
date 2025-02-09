@@ -18,6 +18,10 @@
 	"editor.lineNumbers": "on", // Affiche les numéros de ligne
 	"editor.renderWhitespace": "trailing", // Affiche les espaces blancs inutiles
 	"window.commandCenter": false, // Desactive la barre de titre
+	"vscode_custom_css.imports": [
+		"file:///Users/jeremy/Documents/Configs/vscode/custom_vscode.css",
+		"file:///Users/jeremy/Documents/Configs/vscode/custom_vscode.js"
+	], // custom css and js
 	//
 	//
 	//
@@ -141,4 +145,6 @@
 		"scminput": false
 	},
 	"github.copilot.chat.localeOverride": "fr",
+	"makefile.configureOnOpen": true,
 }
+		
